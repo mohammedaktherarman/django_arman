@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1>Detalls de l'estudiant: {{ student_Obj.nom }}</h1>
+
+<p>Nom: {{ student_Obj.nom }}</p>
+<p>Cognom 1: {{ student_Obj.cognom1 }}</p>
+<p>Cognom 2: {{ student_Obj.cognom2 }}</p>
+<p>Correu: {{ student_Obj.correu }}</p>
+<p>Curs: {{ student_Obj.curs }}</p>
+<p>Moduls: {{ student_Obj.moduls|join:", " }}</p>
+
+<!-- Enllaç per tornar a la llista d'estudiants -->
+<a href="{% url 'students' %}"> Go back</a>
+
+{% endblock %}

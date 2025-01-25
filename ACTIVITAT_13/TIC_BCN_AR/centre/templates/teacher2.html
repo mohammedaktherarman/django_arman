@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1>Informació Professor</h1>
+<p>Nom: {{ teacher_Obj.nom }}</p>
+<p>Cognom 1: {{ teacher_Obj.cognom1 }}</p>
+<p>Cognom 2: {{ teacher_Obj.cognom2 }}</p>
+<p>Correu: {{ teacher_Obj.correu }}</p>
+<p>Curs: {{ teacher_Obj.curs }}</p>
+<p>Moduls: {{ teacher_Obj.moduls|join:", " }}</p>
+
+<a href="{% url 'teachers' %}">Tornar a la llista de professors</a>
+{% endblock %}
