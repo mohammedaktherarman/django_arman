@@ -2,12 +2,12 @@
 
 {% block content %}
 <h1>INFORMACIO ALUMNE</h1>
-<p>Nom: {{ student.nom }}</p>
-<p>Cognom 1: {{ student.cognom1 }}</p>
-<p>Cognom 2: {{ student.cognom2 }}</p>
-<p>Correu: {{ student.correu }}</p>
-<p>Curs: {{ student.curs }}</p>
-<p>Moduls: {{ student.moduls|join:", " }}</p>
+<p>Nom: {{ students.nom }}</p>
+<p>Cognom 1: {{ students.cognom1 }}</p>
+<p>Cognom 2: {{ students.cognom2 }}</p>
+<p>Correu: {{ students.correu }}</p>
+<p>Curs: {{ students.curs }}</p>
+<p>Moduls: {{ students.moduls|join:", " }}</p>
 
 <!-- Enllaç per tornar a la llista d'estudiants -->
 <a href="{% url 'students' %}"> Go back</a>

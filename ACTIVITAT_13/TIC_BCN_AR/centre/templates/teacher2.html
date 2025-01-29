@@ -2,12 +2,12 @@
 
 {% block content %}
 <h1>INFORMACIO PROFESSOR</h1>
-<p>Nom: {{ teacher.nom }}</p>
-<p>Cognom 1: {{ teacher.cognom1 }}</p>
-<p>Cognom 2: {{ teacher.cognom2 }}</p>
-<p>Correu: {{ teacher.correu }}</p>
-<p>Curs: {{ teacher.curs }}</p>
-<p>Moduls: {{ teacher.moduls|join:", " }}</p>
+<p>Nom: {{ teachers.nom }}</p>
+<p>Cognom 1: {{ teachers.cognom1 }}</p>
+<p>Cognom 2: {{ teachers.cognom2 }}</p>
+<p>Correu: {{ teachers.correu }}</p>
+<p>Curs: {{ teachers.curs }}</p>
+<p>Moduls: {{ teachers.moduls|join:", " }}</p>
 
 <a href="{% url 'teachers' %}"> Go back</a>
 {% endblock %}
