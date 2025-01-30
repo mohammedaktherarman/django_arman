@@ -22,15 +22,15 @@
 
 <p> Apartat 3 Comandes per fer les migracions </p>
 
-![alt text](image12.png) 
+![alt text](/captures/image12.png) 
 
-![alt text](image13.png)
+![alt text](/captures/image13.png)
 
 <p> Apartat 3 Taula i camps de students </p>
 
-![alt text](image31.png)
+![alt text](/captures/image31.png)
 
 <p> Apartat 3  Taula i camps de teachers </p>
 
-![alt text](image32.png)
+![alt text](/captures/image32.png)
 
