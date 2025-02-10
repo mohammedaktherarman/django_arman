@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'centre.apps.CentreConfig',
     'pasApas.apps.PasapasConfig',
+    'login.apps.LoginConfig',
 ]
 
 MIDDLEWARE = [
