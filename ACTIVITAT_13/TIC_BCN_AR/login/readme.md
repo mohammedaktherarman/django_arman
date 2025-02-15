@@ -1,4 +1,6 @@
-Activitat 14 Commit 1: Configuració  projecte
+Activitat 14 
+
+Commit 1: Configuració  projecte
 
 Connectar amb la nova aplicació un cop creada.
 ![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image.png)
@@ -9,7 +11,7 @@ Treballar amb postgresql.
 Afegir  templates a la configuració.
 ![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image-2.png)
 
-Activitat 14 Commit 2: creació de l’aplicació
+Commit 2: creació de l’aplicació
 
 Captura de la comanda per crea la nova aplicacio
 
@@ -21,4 +23,13 @@ En TIC_BCN_AR/urls.py posem la url
 En la aplicacio de nom "login" login/urls.py posem les urls
 ![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image-11.png)
 
+Commit 3: model usuari:
+
+comandes:
+![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image111.png)
+
+![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image-111.png)
+
+la taula a la Base de dades:
+![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image-222.png)
 
