@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1>Formulari</h1>
+
+{% if success %}
+    <p>{{ success }}</p>  <!-- Mensaje de éxito cuando los datos se guardan -->
+{% endif %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit">
+</form>
+
+{% endblock %}

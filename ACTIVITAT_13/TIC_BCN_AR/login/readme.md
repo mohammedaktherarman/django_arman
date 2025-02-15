@@ -33,3 +33,6 @@ comandes:
 la taula a la Base de dades:
 ![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image-222.png)
 
+Commit 4: formulari de login:
+
+![alt text](/ACTIVITAT_13/TIC_BCN_AR/login/captures/image123.png)
