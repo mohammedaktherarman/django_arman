@@ -1,7 +1,5 @@
-from django.forms import ModelForm 
-from .models import Login
+from django import forms
 
-class formulariPersona(ModelForm):
-    class Meta:
-        model = Login
-        fields = '__all__'
+class FormulariPersona(forms.Form):
+    email = forms.EmailField()
+    password = forms.CharField()

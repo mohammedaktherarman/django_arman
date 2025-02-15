@@ -1,16 +1,20 @@
 {% extends 'index.html' %}
 
 {% block content %}
-<h1>Formulari</h1>
+<h1>Iniciar Sessió</h1>
 
-{% if success %}
-    <p>{{ success }}</p>  <!-- Mensaje de éxito cuando los datos se guardan -->
-{% endif %}
-
-<form action="" method="POST">
+<form action="{% url 'formulari' %}" method="POST">
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit">
+    <input type="submit" value="Entrar">
 </form>
+
+{% if messages %}
+    <ul>
+        {% for message in messages %}
+            <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
 
 {% endblock %}
