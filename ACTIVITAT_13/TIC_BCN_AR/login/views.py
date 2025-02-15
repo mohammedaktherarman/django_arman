@@ -34,12 +34,6 @@ from .models import Login
 
 # Vistes de Login amb Session:
 
-def inici(request):
-    if 'user_id' not in request.session:
-        return redirect('formulari')
-
-    return render(request, 'inici.html')
-
 def formulari(request):
     if 'user_id' in request.session:  
         return redirect('inici')
@@ -67,3 +61,10 @@ def formulari(request):
 def logout(request):
     request.session.flush() 
     return redirect('formulari')  
+
+# Vista inici de sessió
+def inici(request):
+    if 'user_id' not in request.session:
+        return redirect('formulari')
+
+    return render(request, 'inici.html')
